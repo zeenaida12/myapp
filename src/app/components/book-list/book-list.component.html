@@ -1,0 +1,13 @@
+
+<div *ngIf = "bookData">
+  <ul>
+    <li *ngFor="let book of bookData">
+      <span>ID: {{book._id}}</span><br>
+      <span>Title: {{book.title}}</span><br>
+      <span>Author :{{book.author}}</span><br>
+      <span>Image: {{book.image}}</span><br>
+      <span>Release Date: {{book.releaseDate}}</span><br>
+      <span>Version: {{book._v}}</span><br>
+    </li>
+  </ul>
+</div>
